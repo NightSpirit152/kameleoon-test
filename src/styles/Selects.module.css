@@ -18,11 +18,11 @@
 
 @media (max-width: 670px) {
     .lineStyleSelect {
-        margin-left: 0;
+        margin-left: 0!important;
     }
 
     .viewModeSelect {
-        margin-right: 0;
+        margin-right: 0!important;
     }
 
 }
