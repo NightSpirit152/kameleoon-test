@@ -1,0 +1,68 @@
+.root {
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #ffffff;
+    color: #111827;
+    border-radius: 8px;
+}
+
+.rootDark {
+    background-color: #020617;
+    color: #e5e7eb;
+}
+
+.controls {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.chartWrapper {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    width: 1280px;
+    height: 720px;
+}
+
+.themeSwitch {
+    align-self: center;
+}
+
+.tooltipDark {
+    background-color: #020617!important; /* почти чёрный */
+    color: #e5e7eb!important;
+}
+
+@media (min-width: 671px) and (max-width: 1300px) {
+    .root {
+        padding: 16px 24px;
+    }
+
+    .controls {
+        flex-direction: row;
+    }
+
+    .chartWrapper {
+        width: 800px;
+        height: 480px;
+    }
+}
+
+@media (max-width: 670px) {
+    .root {
+        padding: 16px 24px;
+    }
+
+    .controls {
+        flex-direction: row;
+    }
+
+    .chartWrapper {
+        width: auto;
+        height: 256px;
+    }
+}

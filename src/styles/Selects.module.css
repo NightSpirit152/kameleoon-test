@@ -1,0 +1,16 @@
+.lineStyleSelect {
+    width: 200px;
+    margin-left: auto;
+}
+
+.viewModeSelect {
+    width: 100px;
+    margin-right: auto;
+}
+
+.variationsFilter {
+    min-width: 200px;
+    width: fit-content;
+    max-width: 50%;
+    align-self: flex-end;
+}
