@@ -14,3 +14,15 @@
     max-width: 50%;
     align-self: flex-end;
 }
+
+
+@media (max-width: 670px) {
+    .lineStyleSelect {
+        margin-left: 0;
+    }
+
+    .viewModeSelect {
+        margin-right: 0;
+    }
+
+}
