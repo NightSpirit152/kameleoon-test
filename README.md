@@ -3,6 +3,9 @@
 Interactive conversion-rate visualization dashboard built with **React**, **TypeScript**, and **Recharts**.
 Supports multiple display modes, styling configurations, theming, and PNG exporting.
 
+GitHub Pages demo link:
+[Live Demo](https://nightspirit152.github.io/kameleoon-test/)
+
 # Visualization Library
 
 The project uses **Recharts**, a React-based SVG visualization library, chosen for:
